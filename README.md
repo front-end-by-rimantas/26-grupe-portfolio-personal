@@ -32,10 +32,10 @@ Karolina [Github](https://github.com/baekarolina) , [LinkedIn](linkedin.com/in/k
 
 Ugnė [Github](https://github.com/Uugne) , [LinkedIn](linkedin.com/in/ugne-kurkyte)
 
-Dovilė [Github](https://github.com/Kerbelyte),[LinkedIn](linkedin.com/in/dovilė-kerbelytė-66634a162)
+Dovilė [Github](https://github.com/Kerbelyte) , [LinkedIn](linkedin.com/in/dovilė-kerbelytė-66634a162)
 
 Sandra [Github](https://github.com/lazauninke) , [LinkedIn](linkedin.com/in/sandra-jonikaitė-lažauninkė-7061b9157)
 
 Deividas [Github](https://github.com/dgdeivis) , [LinkedIn](linkedin.com/in/deividas-galdikas-2a440a173)
 
-Rolandas [Github](https://github.com/NikkeiR) , [LinkedIn](www.linkedin.com/in/rolandas-urnikis-a9943420a)
+Rolandas [Github](https://github.com/NikkeiR) , [LinkedIn](linkedin.com/in/rolandas-urnikis-a9943420a)
