@@ -1,0 +1,14 @@
+.services {
+    display: flex;
+    justify-content:center;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    font-weight: 600;
+  }
+  .servicetext {
+    font-size: 14px;
+    text-align: center;
+    padding: 0 46px;
+    color: grey;
+   
+}
