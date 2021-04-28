@@ -1,0 +1,42 @@
+h2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    font-size: 36px;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.gallery > .container > .row > .col-4 > .links {
+    display: flex;
+    justify-content: center;
+}
+
+.gallery > .container > .row > .col-4 > .links > a {
+    display: inline-block;
+    padding: 18px 15px;
+    margin-top: 80px;
+    color: black;
+}
+
+.gallery > .container > .row > .images {
+    margin-top: 50px;
+}
+
+.gallery > .container > .row > .images > .img {
+    float: left;
+    text-align: center;
+    padding: 0px 20px;
+}
+
+.gallery > .container > .row > .images > .img > h3 {
+    margin-top: 20px;
+}
+
+.gallery > .container > .row > .images > .img > p {
+    margin-bottom: 20px;
+}
