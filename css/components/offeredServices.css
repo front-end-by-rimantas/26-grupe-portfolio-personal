@@ -30,4 +30,15 @@
     padding-top: 60px;
     padding-bottom: 20px;
     color: #353232;
+
  }
+ 
+.ico:hover {
+    color: #8490ff;
+    transition: 300ms linear;
+}
+  
+.serviceName:hover {
+    color: #8490ff;
+    transition: 300ms linear;
+}
