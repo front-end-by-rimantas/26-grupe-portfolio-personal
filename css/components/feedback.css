@@ -1,0 +1,36 @@
+.feedback-container {
+    background-color: #f9f9ff;
+    padding-bottom: 130px;
+}
+
+.feedback-container > .text-container {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.feedback-button {
+    position: relative;
+}
+
+.feedback-container > .text-container {
+    text-align: center;
+}
+
+.carousel-container > .carousel-inner > .carousel-item-1 {
+    float: left;
+    margin-right: 30px;
+}
+
+.carousel-container > .carousel-inner > .carousel-item-2 {
+    float: left;
+}
+
+.carousel-control-prev {
+    position: absolute;
+    top: 60px; 
+}
+
+.carousel-control-next {
+    position: absolute;
+    top: 100px;
+}
