@@ -13,6 +13,8 @@
 /* Offered services end */
 
 /* Information bar start */
+import { informationBarData } from './data/informationBarData.js';
+import {} from'./components/informationBar.js';
 /* Information bar end */
 
 /* Featured projects start */
@@ -34,3 +36,5 @@
 /* Footer end */
 
 // COMPONENTS EXECUTION
+
+/* Information bar */
