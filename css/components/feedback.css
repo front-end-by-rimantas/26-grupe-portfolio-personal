@@ -7,6 +7,9 @@
     margin-top: 30px;
     margin-bottom: 50px;
 }
+.feedback-container > .text-container > .col-12.head {
+    margin-bottom: 15px;
+}
 
 .feedback-button {
     position: relative;
@@ -27,10 +30,16 @@
 
 .carousel-control-prev {
     position: absolute;
-    top: 60px; 
+    top: 60px;
+    padding: 13px;
+    border: none; 
+    background-color: white;
 }
 
 .carousel-control-next {
     position: absolute;
-    top: 100px;
+    top: 104px;
+    padding: 13px;
+    border: none;
+    background-color: white;
 }
