@@ -1,14 +1,33 @@
-.services {
+.serviceName {
     display: flex;
     justify-content:center;
-    text-transform: capitalize;
-    margin-bottom: 20px;
+    text-decoration: none;
+    font-size: 10px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    font-family: sans-serif;
+    color: #353232;
+}
+
+.serviceSize {
+    font-size: 18px;
     font-weight: 600;
 }
 
-.servicetext {
+.serviceText {
     font-size: 14px;
     text-align: center;
     padding: 0 46px;
     color: grey;
+    font-family: sans-serif;
+   
 }
+
+.ico {
+    display: flex;
+    justify-content:center;
+    font-size: 35px;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    color: #353232;
+ }
