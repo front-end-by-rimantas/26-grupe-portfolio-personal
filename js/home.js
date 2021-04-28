@@ -13,8 +13,8 @@
 /* Offered services end */
 
 /* Information bar start */
+import { animateNumbers, renderAchievements } from './components/informationBar.js';
 import { informationBarData } from './data/informationBarData.js';
-import {} from'./components/informationBar.js';
 /* Information bar end */
 
 /* Featured projects start */
@@ -38,3 +38,5 @@ import {} from'./components/informationBar.js';
 // COMPONENTS EXECUTION
 
 /* Information bar */
+renderAchievements(informationBarData);
+animateNumbers();

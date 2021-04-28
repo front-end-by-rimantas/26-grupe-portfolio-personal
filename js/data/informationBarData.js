@@ -1,5 +1,4 @@
-const informationBarData = [
-    {
+const informationBarData = [{
         number: 2536,
         title: 'Projects Completed',
     },
