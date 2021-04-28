@@ -23,10 +23,11 @@
 
 .gallery > .container > #images {
     margin-top: 50px;
+    text-align: center;
 }
 
-.gallery > .container > #images > .img {
-    text-align: center;
+.gallery > .container > #images > .img > img {
+   width: 100%;
 }
 
 .gallery > .container > #images > .img > h4 {
@@ -35,4 +36,10 @@
 
 .gallery > .container > #images > .img > p {
     margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    .gallery > .container > .row > #links > a {
+        padding: 6px 6px;
+    }
 }
