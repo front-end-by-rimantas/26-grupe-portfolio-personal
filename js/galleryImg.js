@@ -5,7 +5,7 @@ function galleryImg(selector, data) {
     for (let {img, name, description} of data) {
         HTML += `<div class="col-4 img">
                     <img src="${img}" alt="">
-                    <h3>${name}</h3>
+                    <h4>${name}</h4>
                     <p>${description}</p>
                 </div>`
     }

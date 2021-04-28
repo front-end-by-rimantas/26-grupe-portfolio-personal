@@ -1,42 +1,42 @@
-.gallery > .container > .row > .col-6 > .h3 {
+.gallery > .container > .row > .col-6 > h3 {
     display: flex;
     justify-content: center;
     margin-bottom: 10px;
 }
 
-p {
-    display: flex;
-    justify-content: center;
-    font-size: 14px;
-}
-
-.gallery > .container > .row > .col-4 > .links {
+.gallery > .container > .row > .col-6 > p {
     display: flex;
     justify-content: center;
 }
 
-.gallery > .container > .row > .col-4 > .links > a {
+.gallery > .container > .row > #links {
+    display: flex;
+    justify-content: center;
+}
+
+.gallery > .container > .row > #links > a {
     display: inline-block;
     padding: 18px 15px;
     margin-top: 80px;
-    color: black;
-    text-decoration: none;
+    color: #222222;
 }
 
-.gallery > .container > .row > .images {
+.gallery > .container > .row > #images {
+    display: inline-block;
+    width: 100%;
     margin-top: 50px;
 }
 
-.gallery > .container > .row > .images > .img {
+.gallery > .container > .row > #images > .img {
     float: left;
     text-align: center;
-    padding: 0px 20px;
+    padding: 0 10px;
 }
 
-.gallery > .container > .row > .images > .img > h3 {
+.gallery > .container > .row > #images > .img > h4 {
     margin-top: 20px;
 }
 
-.gallery > .container > .row > .images > .img > p {
+.gallery > .container > .row > #images > .img > p {
     margin-bottom: 20px;
 }
