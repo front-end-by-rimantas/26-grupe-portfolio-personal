@@ -19,6 +19,10 @@
 /* Featured projects end */
 
 /* Feedback start */
+import { feedback } from './feedback.js'
+import { feedbackData } from './feedbackData.js'
+
+feedback('.carousel-inner', feedbackData);
 /* Feedback end */
 
 /* Choose plan start */

@@ -24,22 +24,63 @@
     margin-right: 30px;
 }
 
+.carousel-container > .carousel-inner > .carousel-item-1:hover {
+    cursor: pointer;
+}
+
 .carousel-container > .carousel-inner > .carousel-item-2 {
     float: left;
 }
 
+.carousel-container > .carousel-inner > .carousel-item-2:hover {
+    cursor: pointer;
+}
+
 .carousel-control-prev {
     position: absolute;
-    top: 60px;
-    padding: 13px;
+    top: 50px;
+    left: 1150px;
+    padding: 9px 15px 9px 15px;
     border: none; 
     background-color: white;
+    text-align: center;
+    box-shadow: -12px 4px 30px 4px rgba(136,136,136,0.23);
+    opacity: 0.6s;
+    transition: 0.25s;
+    font-size: 20px;
+    color: #777777;
+}
+
+.carousel-control-prev:hover {
+    cursor: pointer;
+    background-color: #8490ff;
+    color: white;
+    opacity: 1s;
 }
 
 .carousel-control-next {
     position: absolute;
-    top: 104px;
-    padding: 13px;
+    top: 97px;
+    padding: 9px 15px 9px 15px;
+    left: 1150px;
     border: none;
     background-color: white;
+    text-align: center;
+    box-shadow:-12px 4px 30px 4px rgba(136,136,136,0.23);
+    opacity: 0.6s;
+    transition: 0.25s;
+    font-size: 20px;
+    color: #777777;
 }
+
+.carousel-control-next:hover {
+    cursor: pointer;
+    background-color: #8490ff;
+    color: white;
+    opacity: 1s
+}
+
+.carousel-container > .carousel-inner > img:nth-child(2) {
+    margin-left: 30px;
+}
+
