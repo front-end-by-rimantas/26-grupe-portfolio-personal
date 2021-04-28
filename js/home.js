@@ -10,6 +10,8 @@
 /* Personal details end */
 
 /* Offered services start */
+import { servicesInfo } from './data/services.js';
+import { offeredservices } from './components/offeredservices.js';
 /* Offered services end */
 
 /* Information bar start */

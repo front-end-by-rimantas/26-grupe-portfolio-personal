@@ -1,0 +1,3 @@
+const servicesInfo = []
+
+export { servicesInfo }
