@@ -19,8 +19,6 @@
 import {galleryLinks} from './galleryLinks.js';
 import {galleryData} from './galleryData.js';
 import {galleryImg} from './galleryImg.js';
-galleryLinks('#links');
-galleryImg('#images', galleryData);
 /* Featured projects end */
 
 /* Feedback start */
@@ -39,3 +37,5 @@ galleryImg('#images', galleryData);
 /* Footer end */
 
 // COMPONENTS EXECUTION
+galleryLinks();
+galleryImg(galleryData);

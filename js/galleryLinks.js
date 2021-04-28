@@ -1,5 +1,5 @@
-function galleryLinks(selector) {
-    const DOM = document.querySelector(selector);
+function galleryLinks() {
+    const DOM = document.querySelector('#links');
 
     DOM.innerHTML += `<a href="#">ALL</a>
     <a href="#">VECTOR</a>

@@ -1,5 +1,5 @@
-function galleryImg(selector, data) {
-    const DOM = document.querySelector(selector);
+function galleryImg(data) {
+    const DOM = document.querySelector('#images');
 
     let HTML = '';
     for (let {img, name, description} of data) {
