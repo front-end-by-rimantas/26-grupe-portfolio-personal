@@ -8,6 +8,39 @@
 @import './components/header.css';
 @import './components/footer.css';
 
+/* Header start */
+/* Header end */
+
+/* Introduction start */
+/* Introduction end */
+
+/* Personal details start */
+/* Personal details end */
+
+/* Offered services start */
+/* Offered services end */
+
+/* Information bar start */
+/* Information bar end */
+
+/* Featured projects start */
+/* Featured projects end */
+
+/* Feedback start */
+/* Feedback end */
+
+/* Choose plan start */
+/* Choose plan end */
+
+/* Blog posts start */
+/* Blog posts end */
+
+/* Advertise bar start */
+/* Advertise bar end */
+
+/* Footer start */
+/* Footer end */
+
 /*main style*/
 h1,
 h2,
@@ -43,6 +76,7 @@ a:hover {
 p {
     color: #777777;
     font-size: 14px;
+<<<<<<< HEAD
 }
 
 /* Header start */
@@ -78,3 +112,6 @@ p {
 
 /* Footer start */
 /* Footer end */
+=======
+}
+>>>>>>> develop
