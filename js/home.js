@@ -36,3 +36,4 @@ import { offeredservices } from './components/offeredservices.js';
 /* Footer end */
 
 // COMPONENTS EXECUTION
+offeredservices (servicesInfo);
