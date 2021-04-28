@@ -37,9 +37,9 @@ a {
     outline: none;
     text-decoration: none;
 }
-    a:hover {
-        color: #8490ff;
-    }
+a:hover {
+    color: #8490ff;
+}
 p {
     color: #777777;
     font-size: 14px;
