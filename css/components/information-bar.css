@@ -1,42 +1,12 @@
 .count {
     background: var(--color-blue-gradiant);
     padding: 100px 0;
-}
-
-.achievement-list {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    justify-content: center;
-}
-
-.achievement-list>.achievement {
+    color: #ffff;
     text-align: center;
 }
 
-.achievement-list>.achievement>.number {
-    color: white;
+.achievement-list .number {
     font-weight: bold;
     font-size: 44px;
-    line-height: 55px;
-}
-
-.achievement-list>.achievement>.subtitle {
-    color: white;
-    font-weight: 300;
-}
-
-@media (max-width: 768px) {
-    .achievement-list {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        row-gap: 15px;
-    }
-}
-
-@media (max-width: 375px) {
-    .achievement-list {
-        display: grid;
-        grid-template-columns: 1fr;
-        row-gap: 35px;
-    }
+    padding: 15px;
 }

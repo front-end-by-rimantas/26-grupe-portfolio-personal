@@ -4,7 +4,7 @@ function renderAchievements(data) {
     let HTML = '';
 
     for (let i = 0; i < data.length; i++) {
-        HTML += `<div class="achievement">
+        HTML += `<div class=" col-12 col-md-6 col-lg-3">
                     <div class="number" data-target = ${data[i].number}>0</div>
                     <div class="subtitle">${data[i].title}</div>
                 </div>`;
