@@ -1,10 +1,10 @@
-.gallery > .container > .row > .col-6 > h3 {
+.gallery > .container > .row > .col-12 > h3 {
     display: flex;
     justify-content: center;
     margin-bottom: 10px;
 }
 
-.gallery > .container > .row > .col-6 > p {
+.gallery > .container > .row > .col-12 > p {
     display: flex;
     justify-content: center;
 }
@@ -12,31 +12,27 @@
 .gallery > .container > .row > #links {
     display: flex;
     justify-content: center;
+    margin-top: 80px;
 }
 
 .gallery > .container > .row > #links > a {
     display: inline-block;
     padding: 18px 15px;
-    margin-top: 80px;
     color: #222222;
 }
 
-.gallery > .container > .row > #images {
-    display: inline-block;
-    width: 100%;
+.gallery > .container > #images {
     margin-top: 50px;
 }
 
-.gallery > .container > .row > #images > .img {
-    float: left;
+.gallery > .container > #images > .img {
     text-align: center;
-    padding: 0 10px;
 }
 
-.gallery > .container > .row > #images > .img > h4 {
+.gallery > .container > #images > .img > h4 {
     margin-top: 20px;
 }
 
-.gallery > .container > .row > #images > .img > p {
+.gallery > .container > #images > .img > p {
     margin-bottom: 20px;
 }
