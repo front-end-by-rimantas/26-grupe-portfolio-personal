@@ -23,8 +23,6 @@ import { informationBarData } from './data/informationBarData.js';
 /* Feedback start */
 import { feedback } from './feedback.js'
 import { feedbackData } from './feedbackData.js'
-
-feedback('.carousel-inner', feedbackData);
 /* Feedback end */
 
 /* Choose plan start */
@@ -44,3 +42,5 @@ feedback('.carousel-inner', feedbackData);
 /* Information bar */
 renderAchievements(informationBarData);
 animateNumbers();
+
+feedback('.carousel-inner', feedbackData);
