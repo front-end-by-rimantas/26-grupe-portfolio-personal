@@ -15,12 +15,16 @@ import { offeredservices } from './components/offeredservices.js';
 /* Offered services end */
 
 /* Information bar start */
+import { animateNumbers, renderAchievements } from './components/informationBar.js';
+import { informationBarData } from './data/informationBarData.js';
 /* Information bar end */
 
 /* Featured projects start */
 /* Featured projects end */
 
 /* Feedback start */
+import { feedback } from './feedback.js'
+import { feedbackData } from './feedbackData.js'
 /* Feedback end */
 
 /* Choose plan start */
@@ -40,3 +44,9 @@ import { offeredservices } from './components/offeredservices.js';
 /* Offered services start */
 offeredservices (servicesInfo);
 /* Offered services end */
+=======
+/* Information bar */
+renderAchievements(informationBarData);
+animateNumbers();
+
+feedback('.carousel-inner', feedbackData);
