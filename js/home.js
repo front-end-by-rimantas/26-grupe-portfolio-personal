@@ -21,6 +21,8 @@ import { informationBarData } from './data/informationBarData.js';
 /* Featured projects end */
 
 /* Feedback start */
+import { feedback } from './feedback.js'
+import { feedbackData } from './feedbackData.js'
 /* Feedback end */
 
 /* Choose plan start */
@@ -40,3 +42,5 @@ import { informationBarData } from './data/informationBarData.js';
 /* Information bar */
 renderAchievements(informationBarData);
 animateNumbers();
+
+feedback('.carousel-inner', feedbackData);

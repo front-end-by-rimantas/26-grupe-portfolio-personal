@@ -11,6 +11,7 @@
 /* components */
 
 @import './components/header.css';
+@import './components/feedback.css';
 @import './components/footer.css';
 @import './components/about-me.css';
 
