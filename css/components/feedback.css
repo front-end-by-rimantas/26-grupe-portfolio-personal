@@ -19,21 +19,10 @@
     text-align: center;
 }
 
-.carousel-container > .carousel-inner > .carousel-item-1 {
+.carousel-inner > .feedbackPhoto > img {
     float: left;
-    margin-right: 30px;
-}
-
-.carousel-container > .carousel-inner > .carousel-item-1:hover {
     cursor: pointer;
-}
-
-.carousel-container > .carousel-inner > .carousel-item-2 {
-    float: left;
-}
-
-.carousel-container > .carousel-inner > .carousel-item-2:hover {
-    cursor: pointer;
+    margin: 6px;
 }
 
 .carousel-control-prev {
@@ -80,11 +69,5 @@
     opacity: 1s
 }
 
-.carousel-container > .carousel-inner > img:nth-child(2) {
-    margin-left: 30px;
-}
 
-.carousel-container > .carousel-inner > img {
-    cursor: pointer;
-}
 

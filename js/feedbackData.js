@@ -1,3 +1,11 @@
-const feedbackData = ["./img/testimonials_1.png", "./img/testimonials_2.png"]; 
+const feedbackData = [
+    {
+        photo: './img/testimonials_1.png',
+    },
+    { 
+        photo: './img/testimonials_2.png',
+    },
+]
+
 
 export { feedbackData }
