@@ -14,6 +14,7 @@ function renderAchievements(data) {
 }
 
 function animateNumbers() {
+
     const counters = document.querySelectorAll('.number');
     const speed = 200;
     counters.forEach(counter => {
@@ -34,23 +35,18 @@ function animateNumbers() {
         updateCount();
     })
 }
-
-function animateScroll() {
-    const achievementBlockDOM = DOM.querySelectorAll('.achievement-block')
-
-    for (const achievementBlockDOM of achievementsBlockDOM) {
-        addEventListener('scroll', () => {
-            const elementTop = achievementBlockDOM.offsetTop;
-            const elementHeight = achievementBlockDOM.clientHeight;
-
-            const isVisible = scrollY + innerHeight >= elementTop + elementHeight;
-
-            if (isVisible) {
-                achievementBlockDOM.classList.add('animate');
-            }
-            scroll();
-        })
+let seen = false;
+document.addEventListener('scroll', function() {
+    if (seen === true) {
+        return;
     }
-}
+    const div = document.querySelector('.count');
+    const isVisible = scrollY + innerHeight >= div.offsetTop + div.clientHeight;
 
-export { animateNumbers, renderAchievements }
+    if (isVisible === true) {
+        animateNumbers();
+        seen = true;
+    }
+
+})
+export { renderAchievements }
