@@ -1,0 +1,12 @@
+.count {
+    background: var(--color-blue-gradiant);
+    padding: 100px 0;
+    color: #ffff;
+    text-align: center;
+}
+
+.achievement-list .number {
+    font-weight: bold;
+    font-size: 44px;
+    padding: 15px;
+}

@@ -13,6 +13,8 @@
 /* Offered services end */
 
 /* Information bar start */
+import { animateNumbers, renderAchievements } from './components/informationBar.js';
+import { informationBarData } from './data/informationBarData.js';
 /* Information bar end */
 
 /* Featured projects start */
@@ -38,3 +40,7 @@ feedback('.carousel-inner', feedbackData);
 /* Footer end */
 
 // COMPONENTS EXECUTION
+
+/* Information bar */
+renderAchievements(informationBarData);
+animateNumbers();
