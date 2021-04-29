@@ -1,0 +1,60 @@
+.this-is-me {
+    display: inline-block;
+    justify-content: center;
+}
+
+.this-is-me-button {
+    color: white;
+    font-size: 14px;
+    width: 200px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 15px 25px;
+    background: linear-gradient(0.25turn, #8491FF, #64BCFD)
+
+.this-is-me-img {
+    width: 100%;
+}
+
+.this-is-me-left {
+    display: inline-block;
+    float: left;
+    height: 350px;
+    width: 80%;
+    padding: 50px 40px;
+    margin-left: 100px;
+}    
+    /*     
+    .about-me-right {
+        display: inline-block;
+        float: left;
+        height: 350px;
+        width: 80%;
+        padding: 50px 40px;
+        margin-left: 100px;
+    }
+     
+    .about-me-right > h2 {
+        margin-top: 25px;
+    }
+     
+    .about-me-paragraph {
+        margin-top: 40px;
+        margin-bottom: 30px;
+        line-height: 1.8;
+        letter-spacing: 1px;
+    }
+     
+     
+     
+    .about-me-button {
+        color: white;
+        font-size: 14px;
+        width: 200px;
+        text-transform: uppercase;
+        text-align: center;
+        padding: 15px 25px;
+        background: linear-gradient(0.25turn, #8491FF, #64BCFD)
+    }
+
+*/
