@@ -20,6 +20,9 @@ import { informationBarData } from './data/informationBarData.js';
 /* Information bar end */
 
 /* Featured projects start */
+import {galleryLinks} from './galleryLinks.js';
+import {galleryData} from './galleryData.js';
+import {galleryImg} from './galleryImg.js';
 /* Featured projects end */
 
 /* Feedback start */
@@ -41,12 +44,13 @@ import { feedbackData } from './feedbackData.js'
 
 // COMPONENTS EXECUTION
 
-/* Offered services start */
-offeredservices (servicesInfo);
-/* Offered services end */
-=======
+galleryLinks();
+galleryImg(galleryData);
+
 /* Information bar */
 renderAchievements(informationBarData);
 animateNumbers();
+
+offeredservices (servicesInfo);
 
 feedback('.carousel-inner', feedbackData);
