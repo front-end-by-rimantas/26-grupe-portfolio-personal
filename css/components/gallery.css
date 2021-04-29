@@ -1,0 +1,45 @@
+.gallery > .container > .row > .col-12 > h3 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.gallery > .container > .row > .col-12 > p {
+    display: flex;
+    justify-content: center;
+}
+
+.gallery > .container > .row > #links {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.gallery > .container > .row > #links > a {
+    display: inline-block;
+    padding: 18px 15px;
+    color: #222222;
+}
+
+.gallery > .container > #images {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.gallery > .container > #images > .img > img {
+   width: 100%;
+}
+
+.gallery > .container > #images > .img > h4 {
+    margin-top: 20px;
+}
+
+.gallery > .container > #images > .img > p {
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    .gallery > .container > .row > #links > a {
+        padding: 6px 6px;
+    }
+}
