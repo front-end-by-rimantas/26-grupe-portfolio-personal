@@ -11,6 +11,7 @@
   "author": "Rimantas Belovas",
   "license": "MIT",
   "devDependencies": {
-    "live-server": "^1.2.1"
+    "live-server": "^1.2.1",
+    "plugin": "^0.3.3"
   }
 }
