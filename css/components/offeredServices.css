@@ -1,45 +1,53 @@
-.offerText {
+.h:hover .ico {
+    color: #8490FF;
+    transition: 300ms linear;
+  }
+  
+.h:hover .offerTitle {
+    color: #8490FF;
+    transition: 300ms linear;
+  }
+  
+.introText {
     display: flex;
     justify-content:center;
     text-transform: capitalize;
     margin-bottom: 20px;
-    font-family: sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 600;
   }
-
-.serviceName {
-    display: flex;
-    justify-content:center;
-    text-decoration: none;
-    font-size: 18px;
-    padding-top: 10px;
-    padding-bottom: 15px;
-    font-family: sans-serif;
-    color: #353232;
-    font-weight: 600;
-}
-
-.serviceText {
-    font-size: 14px;
-    text-align: center;
-    padding: 0 46px;
-    color: grey;
-    font-family: sans-serif;
-   
-}
-
+  
 .ico {
     display: flex;
     justify-content:center;
     font-size: 35px;
     padding-top: 60px;
     padding-bottom: 20px;
-    color: #353232;
-
- }
- .a > .serviceName:hover {
-    color: #8490ff;
-    transition: 300ms linear;
-    
-}
+    color: rgb(53, 50, 50);
+  }
+  
+.textField {
+    display: flex;
+    justify-content:center;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 10px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(53, 50, 50);
+  }
+  
+.offerTitle {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+.offerText {
+    font-size: 14px;
+    text-align: center;
+    padding: 0 46px;
+    color: grey;
+    font-family: 'Poppins', sans-serif;
+  }
   
