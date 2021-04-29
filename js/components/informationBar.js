@@ -35,4 +35,22 @@ function animateNumbers() {
     })
 }
 
+function animateScroll() {
+    const achievementBlockDOM = DOM.querySelectorAll('.achievement-block')
+
+    for (const achievementBlockDOM of achievementsBlockDOM) {
+        addEventListener('scroll', () => {
+            const elementTop = achievementBlockDOM.offsetTop;
+            const elementHeight = achievementBlockDOM.clientHeight;
+
+            const isVisible = scrollY + innerHeight >= elementTop + elementHeight;
+
+            if (isVisible) {
+                achievementBlockDOM.classList.add('animate');
+            }
+            scroll();
+        })
+    }
+}
+
 export { animateNumbers, renderAchievements }
