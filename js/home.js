@@ -13,6 +13,8 @@
 /* Offered services end */
 
 /* Information bar start */
+import { animateNumbers, renderAchievements } from './components/informationBar.js';
+import { informationBarData } from './data/informationBarData.js';
 /* Information bar end */
 
 /* Featured projects start */
@@ -22,6 +24,8 @@ import {galleryImg} from './galleryImg.js';
 /* Featured projects end */
 
 /* Feedback start */
+import { feedback } from './feedback.js'
+import { feedbackData } from './feedbackData.js'
 /* Feedback end */
 
 /* Choose plan start */
@@ -37,5 +41,12 @@ import {galleryImg} from './galleryImg.js';
 /* Footer end */
 
 // COMPONENTS EXECUTION
+
 galleryLinks();
 galleryImg(galleryData);
+
+/* Information bar */
+renderAchievements(informationBarData);
+animateNumbers();
+
+feedback('.carousel-inner', feedbackData);
