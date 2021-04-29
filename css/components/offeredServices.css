@@ -1,16 +1,21 @@
+.offerText {
+    display: flex;
+    justify-content:center;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+    font-weight: 600;
+  }
+
 .serviceName {
     display: flex;
     justify-content:center;
     text-decoration: none;
-    font-size: 10px;
+    font-size: 18px;
     padding-top: 10px;
     padding-bottom: 15px;
     font-family: sans-serif;
     color: #353232;
-}
-
-.serviceSize {
-    font-size: 18px;
     font-weight: 600;
 }
 
