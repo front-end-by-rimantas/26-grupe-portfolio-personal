@@ -18,6 +18,9 @@ import { informationBarData } from './data/informationBarData.js';
 /* Information bar end */
 
 /* Featured projects start */
+import {galleryLinks} from './galleryLinks.js';
+import {galleryData} from './galleryData.js';
+import {galleryImg} from './galleryImg.js';
 /* Featured projects end */
 
 /* Feedback start */
@@ -38,6 +41,9 @@ import { feedbackData } from './feedbackData.js'
 /* Footer end */
 
 // COMPONENTS EXECUTION
+
+galleryLinks();
+galleryImg(galleryData);
 
 /* Information bar */
 renderAchievements(informationBarData);
