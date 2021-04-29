@@ -13,6 +13,7 @@
 @import './components/header.css';
 @import './components/feedback.css';
 @import './components/footer.css';
+@import './components/about-me.css';
 
 /* Header start */
 
@@ -32,8 +33,7 @@
 
 
 /* Offered services start */
-
-
+@import './components/offeredServices.css';
 /* Offered services end */
 
 
