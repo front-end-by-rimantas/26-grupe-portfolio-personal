@@ -1,6 +1,6 @@
 const servicesInfo = [
     { 
-        icon: "fa fa-chart-pie",
+        icon: "fa fa-pie-chart",
         title: "Web Design",
         text: "It is not because things are difficult that we do not dare; it is because we do not dare that they are difficult." 
     },
@@ -20,7 +20,7 @@ const servicesInfo = [
         text: "Hypnosis quit smoking methods maintain caused quite a stir in the medical world over the last two decades. There is a lot of argument." 
     },
     { 
-        icon: "fa fa-tablet-alt",
+        icon: "fa fa-tablet",
         title: "Apps Interface",
         text: "Do you sometimes have the feeling that you’re running into the same obstacles over and over again? Many of my conflicts." 
     },

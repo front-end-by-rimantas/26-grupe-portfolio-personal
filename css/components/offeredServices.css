@@ -37,13 +37,9 @@
     color: #353232;
 
  }
- 
-.ico:hover {
+ .a > .serviceName:hover {
     color: #8490ff;
     transition: 300ms linear;
+    
 }
   
-.serviceName:hover {
-    color: #8490ff;
-    transition: 300ms linear;
-}
