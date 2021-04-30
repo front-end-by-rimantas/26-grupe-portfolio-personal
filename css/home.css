@@ -13,7 +13,8 @@
 @import './components/header.css';
 @import './components/feedback.css';
 @import './components/footer.css';
-@import './components/about-me.css';
+@import './components/personal-details.css';
+@import './components/this-is-me.css';
 
 /* Header start */
 
