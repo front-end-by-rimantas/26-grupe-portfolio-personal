@@ -37,6 +37,8 @@ import { feedbackData } from './feedbackData.js'
 /* Blog posts end */
 
 /* Advertise bar start */
+import { logosData } from './data/advertiseData.js';
+import { renderLogos } from './components/advertiseBar.js'
 /* Advertise bar end */
 
 /* Footer start */
@@ -49,6 +51,7 @@ galleryImg(galleryData);
 
 /* Information bar */
 renderAchievements(informationBarData);
+renderLogos(logosData);
 
 offeredservices(servicesInfo);
 
