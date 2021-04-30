@@ -4,7 +4,7 @@ function feedback(selector, feedbackData) {
 
     let HTML = '';
     for (let {photo} of feedbackData) {
-        HTML += `<div class="col-12 feedbackPhoto">
+        HTML += `<div class="col-12 feedbackPhoto testi">
                         <img src="${photo}" alt="">
                 </div>`
     }
