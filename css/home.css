@@ -27,12 +27,16 @@
 
 
 /* Personal details start */
+
 @import './components/personal-details.css';
+
 /* Personal details end */
 
 
 /* Offered services start */
+
 @import './components/offeredServices.css';
+
 /* Offered services end */
 
 
@@ -46,7 +50,6 @@
 /* Featured projects start */
 
 @import './components/gallery.css';
-
 
 /* Featured projects end */
 
@@ -76,6 +79,12 @@
 
 
 /* Footer start */
+
+
+/* Footer end */
+
+
+/*main style*/
 
 
 /* Footer end */
@@ -115,6 +124,15 @@ a {
     text-transform: uppercase;
     outline: none;
     text-decoration: none;
+}
+
+a:hover {
+    color: #8490ff;
+}
+
+p {
+    color: #777777;
+    font-size: 14px;
 }
 
 a:hover {

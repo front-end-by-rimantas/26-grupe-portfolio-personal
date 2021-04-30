@@ -20,9 +20,9 @@ import { informationBarData } from './data/informationBarData.js';
 /* Information bar end */
 
 /* Featured projects start */
-import {galleryLinks} from './galleryLinks.js';
-import {galleryData} from './galleryData.js';
-import {galleryImg} from './galleryImg.js';
+import {galleryLinks} from './components/galleryLinks.js';
+import {galleryData} from './data/galleryData.js';
+import {galleryImg} from './components/galleryImg.js';
 /* Featured projects end */
 
 /* Feedback start */
