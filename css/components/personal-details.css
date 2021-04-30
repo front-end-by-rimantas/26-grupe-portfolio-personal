@@ -5,31 +5,24 @@
     justify-content: center;
     display: flex;
     width: 100%;
-    flex-wrap: wrap;
     flex-direction: column;
-    position: relative;
  }
 
- .left-column > .img {
+ .img {
     max-width: 100%;
- 
- }
- 
- right-column {
-
  }
 
  .right-column > h5 {
     font-size: 14px;
     text-transform: uppercase;
     font-weight: 300;
-    margin-bottom: 30px;
+    margin-bottom: 35px;
     margin-left: 100px;
  }
 
  .right-column > h2 {
     display: inline-block;
-    margin-bottom: 30px;
+    margin-bottom: 35px;
     margin-left: 100px;
  }
 
@@ -39,7 +32,7 @@
     max-width: 445px;
     line-height: 1.625em;
     color: #777777;
-    margin-bottom: 50px;
+    margin-bottom: 55px;
     margin-left: 100px;
  }
 
