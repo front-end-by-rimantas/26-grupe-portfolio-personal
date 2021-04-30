@@ -1,0 +1,45 @@
+.this-is-me {
+    display: inline-block;
+    justify-content: center;
+}
+
+.this-is-me-left {
+    margin-top: 150px;
+    width: 200%;
+}
+
+.this-is-me-left > h1 {
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.this-is-me-left > p {
+    margin-bottom: 50px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #777777;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    line-height: 1.6;
+
+}
+
+.this-is-me-button {
+    color: white;
+    font-size: 14px;
+    width: 200px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 15px 25px;
+    background: linear-gradient(0.25turn, #8491FF, #64BCFD)
+}
+
+.this-is-me-img {
+    width: 100%;
+}
+
+.this-is-me-button:hover {
+    box-shadow: 0px 20px 20px 0px rgba(132, 144, 255, 0.3);
+    transition: all 0.5s; 
+}
