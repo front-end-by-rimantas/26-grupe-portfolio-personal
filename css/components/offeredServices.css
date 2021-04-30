@@ -1,28 +1,22 @@
-.serviceName {
+.h:hover .ico {
+    color: #8490FF;
+    transition: 300ms linear;
+  }
+  
+.h:hover .offerTitle {
+    color: #8490FF;
+    transition: 300ms linear;
+  }
+  
+.introText {
     display: flex;
     justify-content:center;
-    text-decoration: none;
-    font-size: 10px;
-    padding-top: 10px;
-    padding-bottom: 15px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
     font-family: sans-serif;
-    color: #353232;
-}
-
-.serviceSize {
-    font-size: 18px;
     font-weight: 600;
-}
-
-.serviceText {
-    font-size: 14px;
-    text-align: center;
-    padding: 0 46px;
-    color: grey;
-    font-family: sans-serif;
-   
-}
-
+  }
+  
 .ico {
     display: flex;
     justify-content:center;
@@ -30,15 +24,30 @@
     padding-top: 60px;
     padding-bottom: 20px;
     color: #353232;
-
- }
- 
-.ico:hover {
-    color: #8490ff;
-    transition: 300ms linear;
-}
+  }
   
-.serviceName:hover {
-    color: #8490ff;
-    transition: 300ms linear;
-}
+.textField {
+    display: flex;
+    justify-content:center;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 10px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    font-family: sans-serif;
+    color: #353232;
+  }
+  
+.offerTitle {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+.offerText {
+    font-size: 14px;
+    text-align: center;
+    padding: 0 46px;
+    color: grey;
+    font-family: sans-serif;
+  }
+  

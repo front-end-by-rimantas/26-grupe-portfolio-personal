@@ -4,12 +4,17 @@ function offeredservices( data ) {
     let HTML = '';
 
     for (let i = 0; i < data.length; i++) {
-        HTML += `<div class="col-12 col-md-6 col-lg-4">
-                    <a href="#" class="${data[i].icon} ico"></a>
-                    <a href="#" class="serviceName">
-                    <h1 class="serviceSize">${data[i].title}</h1></a>
-                    <p class="serviceText">${data[i].text}</p>
-                    </div>`;
+        HTML += `<div class="col-12 col-md-6 col-lg-4 h">
+                    <div>
+                        <i class="${data[i].icon} ico"></i>
+                        <a href="#" class="textField">
+                            <h3 class="offerTitle">${data[i].title}</h3>
+                        </a>
+                    </div>
+                    <div>
+                        <p class="offerText">${data[i].text}</p>
+                    </div>
+                </div>`
     }
 
     DOM.innerHTML = HTML;
