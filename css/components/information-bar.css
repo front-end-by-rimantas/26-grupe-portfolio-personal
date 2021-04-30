@@ -1,7 +1,10 @@
 .count {
+    display: grid;
     background: var(--color-blue-gradiant);
     color: #ffff;
     text-align: center;
+    padding: 120px;
+    margin-bottom: 0px;
 }
 
 .container .achievement-list {

@@ -14,6 +14,7 @@ function renderAchievements(data) {
 }
 
 function animateNumbers() {
+
     const counters = document.querySelectorAll('.number');
     const speed = 200;
     counters.forEach(counter => {
@@ -34,5 +35,18 @@ function animateNumbers() {
         updateCount();
     })
 }
+let seen = false;
+document.addEventListener('scroll', function() {
+    if (seen === true) {
+        return;
+    }
+    const div = document.querySelector('.count');
+    const isVisible = scrollY + innerHeight >= div.offsetTop + div.clientHeight;
 
-export { animateNumbers, renderAchievements }
+    if (isVisible === true) {
+        animateNumbers();
+        seen = true;
+    }
+
+})
+export { renderAchievements }
