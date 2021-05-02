@@ -14,6 +14,7 @@
 @import './components/feedback.css';
 @import './components/footer.css';
 
+
 /* Header start */
 
 
@@ -22,6 +23,7 @@
 
 /* Introduction start */
 
+@import './components/this-is-me.css';
 
 /* Introduction end */
 
