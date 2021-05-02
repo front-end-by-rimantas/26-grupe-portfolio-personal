@@ -3,16 +3,13 @@
     padding-bottom: 130px;
 }
 
-.feedback-container > .text-container {
-    margin-top: 30px;
-    margin-bottom: 50px;
-}
 .feedback-container > .text-container > .col-12.head {
     margin-bottom: 15px;
 }
 
 .feedback-button {
     position: relative;
+    width: 100%;
 }
 
 .feedback-container > .text-container {
@@ -26,14 +23,14 @@
 .carousel-inner > .feedbackPhoto > img {
     float: left;
     cursor: pointer;
-    margin: 6px;
+    margin: 5px;
     width: 100%;
 }
 
 .carousel-control-prev {
     position: absolute;
-    top: 50px;
-    left: 1150px;
+    top: 30%;
+    left: 90%;
     padding: 9px 15px 9px 15px;
     border: none; 
     background-color: white;
@@ -54,9 +51,9 @@
 
 .carousel-control-next {
     position: absolute;
-    top: 97px;
+    top: 37%;
+    left: 90%;
     padding: 9px 15px 9px 15px;
-    left: 1150px;
     border: none;
     background-color: white;
     text-align: center;
@@ -74,11 +71,7 @@
     opacity: 1s
 }
 
-@media (max-width: 576px) {
-    .btn {
-        display: none;
-    }
-}
+
 
 
 
