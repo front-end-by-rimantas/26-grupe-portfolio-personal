@@ -19,10 +19,15 @@
     text-align: center;
 }
 
+.carousel-container > .carousel-inner.active {
+
+}
+
 .carousel-inner > .feedbackPhoto > img {
     float: left;
     cursor: pointer;
     margin: 6px;
+    width: 100%;
 }
 
 .carousel-control-prev {
@@ -67,6 +72,12 @@
     background-color: #8490ff;
     color: white;
     opacity: 1s
+}
+
+@media (max-width: 576px) {
+    .btn {
+        display: none;
+    }
 }
 
 
