@@ -29,7 +29,7 @@
 
 .carousel-control-prev {
     position: absolute;
-    top: 30%;
+    top: 35%;
     left: 90%;
     padding: 9px 15px 9px 15px;
     border: none; 
@@ -51,7 +51,7 @@
 
 .carousel-control-next {
     position: absolute;
-    top: 37%;
+    top: 50%;
     left: 90%;
     padding: 9px 15px 9px 15px;
     border: none;
