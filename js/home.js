@@ -26,8 +26,11 @@ import { galleryImg } from './components/galleryImg.js';
 /* Featured projects end */
 
 /* Feedback start */
-import { feedback } from './feedback.js'
-import { feedbackData } from './feedbackData.js'
+import { feedback } from './components/feedback.js'
+import { feedbackData } from './components/feedbackData.js'
+import { carousel } from './components/carousel.js';
+
+
 /* Feedback end */
 
 /* Choose plan start */
@@ -56,3 +59,4 @@ renderLogos(logosData);
 offeredservices(servicesInfo);
 
 feedback('.carousel-inner', feedbackData);
+carousel('.feedback');
