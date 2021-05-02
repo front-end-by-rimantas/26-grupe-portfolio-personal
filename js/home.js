@@ -34,6 +34,8 @@ import { carousel } from './components/carousel.js';
 /* Feedback end */
 
 /* Choose plan start */
+import { planData } from './data/planData.js';
+import { planCards } from './components/plan.js';
 /* Choose plan end */
 
 /* Blog posts start */
@@ -60,3 +62,5 @@ offeredservices(servicesInfo);
 
 feedback('.carousel-inner', feedbackData);
 carousel('.feedback');
+
+planCards(planData);
