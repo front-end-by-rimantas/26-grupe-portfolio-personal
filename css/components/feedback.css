@@ -17,11 +17,44 @@
     text-align: center;
 }
 
-.carousel-inner > .feedbackPhoto > img {
-    float: left;
+.testi {
+    width: 555px;
+    height: 183px;
+    background-color: white; 
+}
+
+.testi:hover{
     cursor: pointer;
-    margin: 5px;
-    width: 100%;
+}
+
+.testi:hover .box-author{
+    color: #8490FF;
+    transition: 200ms;
+}
+
+
+
+.testi > .box-img {
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.testi > .box {
+    margin-left: 90px;
+    margin-top: -50px;
+    width: 400px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.625em;
+}
+
+.box > .box-author {
+    margin-top: 30px;
+}
+
+.box > .box-name {
+    margin-top: 5px;
 }
 
 .carousel-control-prev {
