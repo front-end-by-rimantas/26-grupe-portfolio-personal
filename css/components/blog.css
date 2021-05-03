@@ -1,0 +1,114 @@
+.blog {
+    background-color: #f9f9ff;
+}
+
+.blogHead {
+    text-align: center;
+}
+
+.blogPhar {
+    text-align: center;
+    padding: 40px 0 80px 0;
+}
+
+.big {
+    display: flex;
+    text-align: center;
+}
+
+.blog-container {
+    display: flex;
+    align-items: center;
+}
+
+.cont {
+    position: relative;
+    margin: 16px;
+    color:#222;
+}
+
+.cont:hover {
+    cursor: pointer;
+}
+
+.cont:hover .main-head {
+    color: #8490FF;
+    transition: 200ms;
+}
+
+.small-text > h4 {
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+.small-text > h4:hover {
+    margin-top: 20px;
+    text-transform: uppercase;
+    color: #8490FF;
+    transition: 200ms linear;
+}
+
+.small-text > p {
+    margin-top: 15px;
+    line-height: 22px;
+}
+
+.row > .main-container {
+    width: 1200px;
+    margin-bottom: 80px;
+}
+
+.cont:last-child {
+    margin-bottom: 38px;
+}
+
+.cont > .mini-container {
+    padding: 5px 0;
+    border-bottom: 1px solid #eee;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.625em;
+    position: relative;
+}
+
+.cont > .mini-container > span {
+    color: #222;
+}
+
+.cont > .mini-container > .name {
+    margin-left: 10px;
+}
+
+.cont > .mini-container > .date {
+    margin-left: 65px;
+}
+
+.cont > .mini-container > .heart {
+    margin-top: 4px;
+    margin-left: 11px;
+}
+
+.cont > .mini-container > .comment {
+    margin-top: 4px;
+    margin-left: 10px;
+}
+
+.blog-container > .main-img {
+    transition: 0.2s all ease-in-out;
+    transform: scale(1);
+}
+
+.cont:hover .main-img {
+    transform: scale(1.04);
+}
+
+.main-img > img {
+    width: 100%;
+}
+
+
+
+
+
+
+    
