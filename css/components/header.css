@@ -1,0 +1,90 @@
+.header-bar {
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 0 10px 20px #0002;
+    position: fixed;
+    z-index: 1;
+}
+
+.header-bar>.row {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header-bar>.row>img {
+    height: 30px;
+}
+
+.nav-menu {
+    text-align: right;
+    flex-grow: 8;
+}
+
+.row>.nav-menu>a {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 500;
+    color: black;
+}
+
+.row>.hidden>.child:after {
+    font-family: 'FontAwesome';
+    content: '\f107';
+    margin-left: 5px;
+}
+
+.row>.hidden>.child:hover:after {
+    color: #8490ff;
+}
+
+.nav-menu>a:last-child {
+    margin-left: 15px;
+}
+
+.nav-menu>a:hover {
+    color: #8490ff;
+}
+
+.header-bar>.row>.search>.fa {
+    padding: 5px 0;
+    font-size: 20px;
+    line-height: 20px;
+    color: black;
+}
+
+.header-bar>.row>.search>.fa:hover {
+    color: #8490ff;
+}
+
+.mobile-menu {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+}
+
+.mobile-menu>.bar {
+    position: absolute;
+    top: 12px;
+    right: 0;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    transform: translate(-7%, -60%);
+}
+
+.mobile-menu>.sear {
+    position: absolute;
+    top: 12px;
+    right: 30px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    transform: translate(-25%, -60%);
+}

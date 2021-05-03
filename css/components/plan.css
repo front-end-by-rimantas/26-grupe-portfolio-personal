@@ -1,0 +1,10 @@
+.plan > .container > .row > .col-12 > h3 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.plan > .container > .row > .col-12 > p {
+    display: flex;
+    justify-content: center;
+}

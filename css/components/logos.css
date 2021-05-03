@@ -1,0 +1,20 @@
+.advertise {
+    background: var(--color-blue-gradiant);
+    width: 100%;
+    padding: 70px 0;
+}
+
+.advertise>.adsLogo {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.adsLogo>.logo {
+    opacity: 0.5;
+}
+
+.adsLogo>.logo:hover {
+    opacity: 1;
+    cursor: pointer;
+}

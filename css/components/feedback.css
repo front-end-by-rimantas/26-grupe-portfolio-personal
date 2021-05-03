@@ -1,0 +1,77 @@
+.feedback-container {
+    background-color: #f9f9ff;
+    padding-bottom: 130px;
+}
+
+.feedback-container > .text-container > .col-12.head {
+    margin-bottom: 15px;
+}
+
+.feedback-button {
+    position: relative;
+    width: 100%;
+}
+
+.feedback-container > .text-container {
+    text-align: center;
+}
+
+.carousel-container > .carousel-inner.active {
+
+}
+
+.carousel-inner > .feedbackPhoto > img {
+    float: left;
+    cursor: pointer;
+    margin: 5px;
+    width: 100%;
+}
+
+.carousel-control-prev {
+    position: absolute;
+    top: 35%;
+    left: 90%;
+    padding: 9px 15px 9px 15px;
+    border: none; 
+    background-color: white;
+    text-align: center;
+    box-shadow: -12px 4px 30px 4px rgba(136,136,136,0.23);
+    opacity: 0.6s;
+    transition: 0.25s;
+    font-size: 20px;
+    color: #777777;
+}
+
+.carousel-control-prev:hover {
+    cursor: pointer;
+    background-color: #8490ff;
+    color: white;
+    opacity: 1s;
+}
+
+.carousel-control-next {
+    position: absolute;
+    top: 50%;
+    left: 90%;
+    padding: 9px 15px 9px 15px;
+    border: none;
+    background-color: white;
+    text-align: center;
+    box-shadow:-12px 4px 30px 4px rgba(136,136,136,0.23);
+    opacity: 0.6s;
+    transition: 0.25s;
+    font-size: 20px;
+    color: #777777;
+}
+
+.carousel-control-next:hover {
+    cursor: pointer;
+    background-color: #8490ff;
+    color: white;
+    opacity: 1s
+}
+
+
+
+
+

@@ -1,0 +1,15 @@
+.count {
+    display: grid;
+    background: var(--color-blue-gradiant);
+    color: #ffff;
+    text-align: center;
+    padding: 120px;
+    margin-bottom: 0px;
+    justify-content: center;
+}
+
+.achievement-list .number {
+    font-weight: bold;
+    font-size: 44px;
+    padding: 15px;
+}
