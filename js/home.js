@@ -27,7 +27,7 @@ import { galleryImg } from './components/galleryImg.js';
 
 /* Feedback start */
 import { feedback } from './components/feedback.js'
-import { feedbackData } from './components/feedbackData.js'
+import { feedbackData } from './data/feedbackData.js'
 import { carousel } from './components/carousel.js';
 
 
@@ -39,11 +39,13 @@ import { planCards } from './components/plan.js';
 /* Choose plan end */
 
 /* Blog posts start */
+import { blogData } from './data/blogData.js';
 /* Blog posts end */
 
 /* Advertise bar start */
 import { logosData } from './data/advertiseData.js';
 import { renderLogos } from './components/advertiseBar.js'
+import { blogRender } from './components/BlogRender.js';
 /* Advertise bar end */
 
 /* Footer start */
@@ -64,3 +66,5 @@ feedback('.carousel-inner', feedbackData);
 carousel('.feedback');
 
 planCards(planData);
+
+blogRender(blogData);
