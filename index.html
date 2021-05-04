@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="./css/home.css">
+    <link rel="shortcut icon" type="image" href="./img/favicon.png">
 </head>
 
 <body>
@@ -29,17 +30,48 @@
             </a>
         </div>
     </header>
-
     <!-- Header end-->
 
     <!-- Sidebar start -->
-
+    <div class="sidebar-section" id="mySidebarSection"></div>
+    <div class="sidebar" id="mySidebar">
+        <div id="closeIcon"><i class="fa fa-times"></i></div>
+        <nav id="sidebarNav">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Portfolio</a>
+            <a href="#">Pricing</a>
+            <div class="dropdown">
+                <a href="#" class="dropdown-link-blog">Blog</a>
+                <div class="sidebar-dropdown-content-blog">
+                    <a href="#">Blog Home</a>
+                    <a href="#">Blog Single</a>
+                </div>
+            </div>
+            <div class="dropdown dropdown-pages">
+                <a href="#" class="dropdown-link-pages">Pages</a>
+                <div class="sidebar-dropdown-content-pages">
+                    <a href="#">Elements</a>
+                    <div class="sidebar-dropdown-level-2">
+                        <a href="#" class="pages-level-2-link">Level 2</a>
+                        <div class="sidebar-dropdown-content-lvl-2">
+                            <a href="#">Item One</a>
+                            <a href="#">Item Two</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="#">Contact</a>
+        </nav>
+    </div>
+    </div>
     <!-- Sidebar end -->
 
     <!-- Introduction start-->
- 
-    <div class="container"; style="background-color: #F9F9FF;">
-        <div class="row this-is-me";>
+
+    <div class="container" ; style="background-color: #F9F9FF;">
+        <div class="row this-is-me" ;>
             <div class="col-12 col-md-6 this-is-me-left">
                 <h5 class="this-is">This is me</h5>
                 <h1>Philip Gilbert</h1>
@@ -113,18 +145,16 @@
         <div class="feedback-button">
             <div class="carousel-container container">
                 <div class="carousel-inner row"></div>
-            <div class="button-cont">
-            <button 
-            type="button" class="carousel-control-prev fa fa-angle-up btn" data-slide="prev" tabindex="0">
+                <div class="button-cont">
+                    <button type="button" class="carousel-control-prev fa fa-angle-up btn" data-slide="prev" tabindex="0">
         </button>
-            <button 
-            type="button" class="carousel-control-next fa fa-angle-down btn" data-slide="next" tabindex="0">
+                    <button type="button" class="carousel-control-next fa fa-angle-down btn" data-slide="next" tabindex="0">
         </button>
+                </div>
             </div>
-            </div>  
         </div>
-        </div>
-        </div> 
+    </div>
+    </div>
     </div>
     <!-- Feedback end-->
 
@@ -147,8 +177,8 @@
         <div class="whole-container">
             <div class="container">
                 <div class="main-container container">
-                        <h3 class="blogHead">Latest Posts From Our Blog</h3>
-                        <p class="blogPhar">You may be a skillfull, effective employer but if you don't trust your personner and the opposite, then the chances of improving and expanding the business</p>
+                    <h3 class="blogHead">Latest Posts From Our Blog</h3>
+                    <p class="blogPhar">You may be a skillfull, effective employer but if you don't trust your personner and the opposite, then the chances of improving and expanding the business</p>
                     <div id="blog" class="blog-container row"></div>
                 </div>
             </div>
@@ -165,36 +195,36 @@
     <!-- Footer start-->
     <div class="container backroundFooter">
         <div class="row footerBox">
-          <div class="col-12 col-md-5">
-            <h3 class="aboutFooter">About me</h3>
-            <p class="textFooter">We have tested a number of registry fix and clean utilities and present our top 3 list on our site for your convenience.</p>
-            <p class="textFooter">Copyright <i class="fa fa-copyright"></i> 2021 All rights reserved | This template is made with
-              <i class="fa fa-heart-o"></i> by<a href="#"><span class="buttonText">Colorlib</span></a>
-            </p>
-          </div>
-  
-          <div class="col-12 col-md-5">
-            <h3 class="aboutFooter">Newsletter</h3>
-            <p class="textFooter">Stay updated with our latest trends</p>
-            <form action=""><input type="email" placeholder="Enter Email Address" />
-              <button type="submit" class="fButton">
+            <div class="col-12 col-md-5">
+                <h3 class="aboutFooter">About me</h3>
+                <p class="textFooter">We have tested a number of registry fix and clean utilities and present our top 3 list on our site for your convenience.</p>
+                <p class="textFooter">Copyright <i class="fa fa-copyright"></i> 2021 All rights reserved | This template is made with
+                    <i class="fa fa-heart-o"></i> by<a href="#"><span class="buttonText">Colorlib</span></a>
+                </p>
+            </div>
+
+            <div class="col-12 col-md-5">
+                <h3 class="aboutFooter">Newsletter</h3>
+                <p class="textFooter">Stay updated with our latest trends</p>
+                <form action=""><input type="email" placeholder="Enter Email Address" />
+                    <button type="submit" class="fButton">
                 <i class="fa fa-long-arrow-right"></i>
               </button>
-            </form>
-          </div>
-  
-          <div class="col-12 col-lg-2">
-            <h3 class="aboutFooter">Follow me</h3>
-            <p class="textFooter">Let us be social</p>
-            <div class="socials">
-              <a href="#" class="fa fa-facebook"></a>
-              <a href="#" class="fa fa-twitter"></a>
-              <a href="#" class="fa fa-dribbble"></a>
-              <a href="#" class="fa fa-behance"></a>
+                </form>
             </div>
-          </div>
+
+            <div class="col-12 col-lg-2">
+                <h3 class="aboutFooter">Follow me</h3>
+                <p class="textFooter">Let us be social</p>
+                <div class="socials">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-dribbble"></a>
+                    <a href="#" class="fa fa-behance"></a>
+                </div>
+            </div>
         </div>
-      </div>
+    </div>
     <!-- Footer end-->
 
     <script src="./js/home.js" type="module" defer></script>
