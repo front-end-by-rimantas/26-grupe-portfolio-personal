@@ -47,6 +47,8 @@ import { renderLogos } from './components/advertiseBar.js'
 /* Advertise bar end */
 
 /* Footer start */
+import { footerSocials } from './data/footerSocials.js';
+import { footer } from './components/footer.js';
 /* Footer end */
 
 // COMPONENTS EXECUTION
@@ -64,3 +66,5 @@ feedback('.carousel-inner', feedbackData);
 carousel('.feedback');
 
 planCards(planData);
+
+footer(footerSocials);
