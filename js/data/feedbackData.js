@@ -7,7 +7,7 @@ const feedbackData = [
     },
     { 
         photo: './img/feedback/testimonials_2.png',
-        text: "Do you want to be even more successful? Learn to love learning and grow. The more effort you put into improving your skills.",
+        text: "Do you want to be even more successful? Learn to love learning and grow. The more effort you put into improving your.",
         author: "Herriet Maxwell",
         position: "CEO at Google"
     },

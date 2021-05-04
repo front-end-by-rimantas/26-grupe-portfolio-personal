@@ -7,6 +7,10 @@
     text-align: center;
 }
 
+.text-container > .head {
+    margin-bottom: 10px;
+}
+
 .testi {
     display: grid;
     grid-template-columns: 15% auto; 
@@ -79,7 +83,28 @@
 }
 
 .button-cont {
-    
+   text-align: center; 
+}
+
+@media (min-width: 1200px) {
+    .carousel-container {
+        display: flex;
+    }
+    .button-cont {
+        margin-top: 55px;
+    }
+
+    .button-cont > button {
+        margin: 2px 0; 
+    }
+
+    .carousel-control-next {
+        display: flex;
+    }
+
+    .carousel-control-prev {
+        display: flex;
+    }
 }
 
 
