@@ -1,20 +1,23 @@
 .advertise {
     background: var(--color-blue-gradiant);
+}
+
+.adsLogo {
+    display: inline-block;
     width: 100%;
-    padding: 70px 0;
+    transition: all 0.5s;
 }
 
-.advertise>.adsLogo {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
-.adsLogo>.logo {
+.adsLogo>.soloBrand {
+    float: left;
+    text-align: center;
     opacity: 0.5;
+    flex-shrink: 0;
+    width: 20%;
+    height: 100%;
 }
 
-.adsLogo>.logo:hover {
+.adsLogo>.soloBrand:hover {
     opacity: 1;
     cursor: pointer;
 }
