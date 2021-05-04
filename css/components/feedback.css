@@ -1,10 +1,11 @@
 .feedback-container {
     background-color: #f9f9ff;
-    padding-bottom: 130px;
+    padding-bottom: 40px;
 }
 
 .feedback-container > .text-container > .col-12.head {
     margin-bottom: 15px;
+    margin-top: 40px;
 }
 
 .feedback-button {
@@ -16,21 +17,44 @@
     text-align: center;
 }
 
-.carousel-container > .carousel-inner.active {
-
+.testi {
+    height: 183px;
+    background-color: white; 
 }
 
-.carousel-inner > .feedbackPhoto > img {
-    float: left;
+.testi:hover{
     cursor: pointer;
-    margin: 5px;
-    width: 100%;
+}
+
+.testi:hover .box-author{
+    color: #8490FF;
+    transition: 200ms;
+}
+
+.testi > .box-img {
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.testi > .box {
+    margin-left: 90px;
+    margin-top: -50px;
+    width: 400px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.625em;
+}
+
+.box > .box-author {
+    margin-top: 30px;
+}
+
+.box > .box-name {
+    margin-top: 5px;
 }
 
 .carousel-control-prev {
-    position: absolute;
-    top: 35%;
-    left: 90%;
     padding: 9px 15px 9px 15px;
     border: none; 
     background-color: white;
@@ -50,9 +74,7 @@
 }
 
 .carousel-control-next {
-    position: absolute;
-    top: 50%;
-    left: 90%;
+    
     padding: 9px 15px 9px 15px;
     border: none;
     background-color: white;
@@ -69,6 +91,10 @@
     background-color: #8490ff;
     color: white;
     opacity: 1s
+}
+
+.button-cont {
+    display: inline;
 }
 
 
