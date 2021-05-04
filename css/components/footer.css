@@ -1,0 +1,58 @@
+.backroundFooter {
+    background-color: #04091E;
+}
+.footerBox {
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.aboutFooter {
+    color: white;
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.textFooter {
+    font-weight: 300;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 20px;
+    color: grey;
+    margin-bottom: 18px;
+    line-height: 23px;
+}
+
+.textFooter > .fa {
+    display: inline-block;
+    font-size: 14px;
+    color: grey;
+    padding: 0;
+    line-height: inherit;
+}
+
+.textFooter > a {
+    text-decoration: none;
+}
+ 
+.buttonText {
+     color: #8490ff;
+}
+
+.fButton {
+    border: none;
+}
+
+ .socials > .fa {
+    color: #fff;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 0;
+    width: 23px;
+    text-decoration: none;
+ }
+
+ .socials > a {
+    text-decoration: none;
+ }
