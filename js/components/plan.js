@@ -11,6 +11,7 @@ function planCards(data) {
                     <p class="p2">${p2}</p>
                     <p class="p3">${p3}</p>
                     <h2>${price}</h2>
+                    <a href="#" class="btn">buy now</a>
                 </div>`
     }
     DOM.innerHTML += HTML;
