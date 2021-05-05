@@ -45,6 +45,7 @@ import { blogData } from './data/blogData.js';
 /* Advertise bar start */
 import { brandsData } from './data/brandsData.js';
 import { brandsCarousel } from './components/brandsCarousel.js'
+import { blogRender } from './components/BlogRender.js';
 /* Advertise bar end */
 
 /* Footer start */
