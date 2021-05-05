@@ -1,3 +1,4 @@
 :root {
     --color-blue-gradiant: linear-gradient(to right,  #8490ff 0%,#62bdfc 100%);
+    --color-hover-text: #8490ff;
 }
