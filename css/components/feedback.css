@@ -27,7 +27,7 @@
 }
 
 .testi:hover .box-author{
-    color: #8490FF;
+    color: var(--color-hover-text);
     transition: 200ms;
 }
 .box > .box-author {
@@ -57,7 +57,7 @@
 
 .carousel-control-prev:hover {
     cursor: pointer;
-    background-color: #8490ff;
+    background-color: var(--color-hover-text);
     color: white;
     opacity: 1s;
 }
@@ -77,7 +77,7 @@
 
 .carousel-control-next:hover {
     cursor: pointer;
-    background-color: #8490ff;
+    background-color: var(--color-hover-text);
     color: white;
     opacity: 1s
 }

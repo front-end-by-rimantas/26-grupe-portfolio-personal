@@ -32,7 +32,7 @@
 }
 
 .cont:hover .main-head {
-    color: #8490FF;
+    color: var(--color-hover-text);
     transition: 200ms;
 }
 
@@ -44,7 +44,7 @@
 .small-text > h4:hover {
     margin-top: 20px;
     text-transform: uppercase;
-    color: #8490FF;
+    color: var(--color-hover-text);
     transition: 200ms linear;
 }
 
