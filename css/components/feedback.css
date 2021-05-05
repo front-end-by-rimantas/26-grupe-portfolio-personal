@@ -1,36 +1,49 @@
 .feedback-container {
     background-color: #f9f9ff;
-    padding-bottom: 130px;
-}
-
-.feedback-container > .text-container > .col-12.head {
-    margin-bottom: 15px;
-}
-
-.feedback-button {
-    position: relative;
-    width: 100%;
+    padding-bottom: 40px;
 }
 
 .feedback-container > .text-container {
     text-align: center;
 }
 
-.carousel-container > .carousel-inner.active {
-
+.text-container > .head {
+    margin-bottom: 10px;
 }
 
-.carousel-inner > .feedbackPhoto > img {
-    float: left;
+.testi {
+    display: grid;
+    grid-template-columns: 15% auto; 
+    background-color: white;
+    margin-bottom: 10px;
+    padding: 30px 5px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.625em;
+}
+
+.testi:hover{
     cursor: pointer;
-    margin: 5px;
-    width: 100%;
+}
+
+.testi:hover .box-author{
+    color: var(--color-hover-text);
+    transition: 200ms;
+}
+.box > .box-author {
+    margin-top: 25px;
+}
+
+.box > .box-name {
+    margin-top: 8px;
+}
+
+.testi > .box-img {
+    margin-top: -10px;
 }
 
 .carousel-control-prev {
-    position: absolute;
-    top: 35%;
-    left: 90%;
+    
     padding: 9px 15px 9px 15px;
     border: none; 
     background-color: white;
@@ -44,15 +57,13 @@
 
 .carousel-control-prev:hover {
     cursor: pointer;
-    background-color: #8490ff;
+    background-color: var(--color-hover-text);
     color: white;
     opacity: 1s;
 }
 
 .carousel-control-next {
-    position: absolute;
-    top: 50%;
-    left: 90%;
+    
     padding: 9px 15px 9px 15px;
     border: none;
     background-color: white;
@@ -66,9 +77,34 @@
 
 .carousel-control-next:hover {
     cursor: pointer;
-    background-color: #8490ff;
+    background-color: var(--color-hover-text);
     color: white;
     opacity: 1s
+}
+
+.button-cont {
+   text-align: center; 
+}
+
+@media (min-width: 1200px) {
+    .carousel-container {
+        display: flex;
+    }
+    .button-cont {
+        margin-top: 55px;
+    }
+
+    .button-cont > button {
+        margin: 2px 0; 
+    }
+
+    .carousel-control-next {
+        display: flex;
+    }
+
+    .carousel-control-prev {
+        display: flex;
+    }
 }
 
 

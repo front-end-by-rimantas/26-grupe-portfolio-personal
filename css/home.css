@@ -68,6 +68,7 @@
 
 
 /* Blog posts start */
+@import './components/blog.css';
 
 
 /* Blog posts end */
@@ -126,15 +127,6 @@ a {
     text-transform: uppercase;
     outline: none;
     text-decoration: none;
-}
-
-a:hover {
-    color: #8490ff;
-}
-
-p {
-    color: #777777;
-    font-size: 14px;
 }
 
 a:hover {
