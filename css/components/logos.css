@@ -1,23 +1,30 @@
+.brands {
+    overflow: hidden;
+    width: 935px;
+    margin: 0 auto;
+}
+
 .advertise {
     background: var(--color-blue-gradiant);
 }
 
-.adsLogo {
+.brandList {
+    display: flex;
+}
+
+.brand {
     display: inline-block;
     width: 100%;
-    transition: all 0.5s;
-}
-
-.adsLogo>.soloBrand {
-    float: left;
-    text-align: center;
+    padding: 20px;
     opacity: 0.5;
-    flex-shrink: 0;
-    width: 20%;
-    height: 100%;
 }
 
-.adsLogo>.soloBrand:hover {
+.brand>.img {
+    display: inline-block;
+    object-fit: contain;
+}
+
+.brand:hover {
     opacity: 1;
     cursor: pointer;
 }

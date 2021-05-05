@@ -43,9 +43,8 @@ import { blogData } from './data/blogData.js';
 /* Blog posts end */
 
 /* Advertise bar start */
-import { logosData } from './data/advertiseData.js';
-import { renderLogos } from './components/advertiseBar.js'
-import { blogRender } from './components/BlogRender.js';
+import { brandsData } from './data/brandsData.js';
+import { brandsCarousel } from './components/brandsCarousel.js'
 /* Advertise bar end */
 
 /* Footer start */
@@ -56,9 +55,8 @@ import { blogRender } from './components/BlogRender.js';
 galleryLinks();
 galleryImg(galleryData);
 
-/* Information bar */
 renderAchievements(informationBarData);
-renderLogos(logosData);
+new brandsCarousel('#brands_block', brandsData);
 
 offeredservices(servicesInfo);
 
