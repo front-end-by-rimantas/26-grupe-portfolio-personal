@@ -3,23 +3,23 @@
     padding-bottom: 40px;
 }
 
-.feedback-container > .text-container > .col-12.head {
-    margin-bottom: 15px;
-    margin-top: 40px;
-}
-
-.feedback-button {
-    position: relative;
-    width: 100%;
-}
-
 .feedback-container > .text-container {
     text-align: center;
 }
 
+.text-container > .head {
+    margin-bottom: 10px;
+}
+
 .testi {
-    height: 183px;
-    background-color: white; 
+    display: grid;
+    grid-template-columns: 15% auto; 
+    background-color: white;
+    margin-bottom: 10px;
+    padding: 30px 5px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.625em;
 }
 
 .testi:hover{
@@ -30,31 +30,20 @@
     color: #8490FF;
     transition: 200ms;
 }
-
-.testi > .box-img {
-    display: inline-block;
-    margin-top: 15px;
-    margin-left: 15px;
-}
-
-.testi > .box {
-    margin-left: 90px;
-    margin-top: -50px;
-    width: 400px;
-    font-size: 14px;
-    font-weight: 300;
-    line-height: 1.625em;
-}
-
 .box > .box-author {
-    margin-top: 30px;
+    margin-top: 25px;
 }
 
 .box > .box-name {
-    margin-top: 5px;
+    margin-top: 8px;
+}
+
+.testi > .box-img {
+    margin-top: -10px;
 }
 
 .carousel-control-prev {
+    
     padding: 9px 15px 9px 15px;
     border: none; 
     background-color: white;
@@ -94,7 +83,28 @@
 }
 
 .button-cont {
-    display: inline;
+   text-align: center; 
+}
+
+@media (min-width: 1200px) {
+    .carousel-container {
+        display: flex;
+    }
+    .button-cont {
+        margin-top: 55px;
+    }
+
+    .button-cont > button {
+        margin: 2px 0; 
+    }
+
+    .carousel-control-next {
+        display: flex;
+    }
+
+    .carousel-control-prev {
+        display: flex;
+    }
 }
 
 

@@ -68,7 +68,6 @@
     font-size: 14px;
     font-weight: 300;
     line-height: 1.625em;
-    position: relative;
 }
 
 .cont > .mini-container > span {
@@ -84,12 +83,12 @@
 }
 
 .cont > .mini-container > .heart {
-    margin-top: 4px;
+    margin-top: 1px;
     margin-left: 11px;
 }
 
 .cont > .mini-container > .comment {
-    margin-top: 4px;
+    margin-top: 1px;
     margin-left: 10px;
 }
 
@@ -105,6 +104,36 @@
 .main-img > img {
     width: 100%;
 }
+
+
+@media (max-width: 767px) {
+    .cont > .mini-container {
+        display: flex;
+        align-items: center;  
+    }
+    .cont > .mini-container > .date {
+        margin-left: 260px;
+    }
+
+}
+
+@media (min-width: 1200px) {
+    .cont > .mini-container {
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .cont > .mini-container > .date {
+        margin-left: 10px;
+    }
+    .cont > .mini-container {
+        display: flex;
+        align-items: center;
+}
+
+
 
 
 
