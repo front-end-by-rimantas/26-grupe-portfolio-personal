@@ -24,7 +24,7 @@
     transition: all 0.3s;
 }
 .plan > .container > #plans-block > .cards:hover {
-    background: linear-gradient(to right,  #8490ff 0%,#62bdfc 100%);
+    background: var(--color-blue-gradiant);
     transform: scale(1.05);
 }
 
@@ -88,6 +88,22 @@
 
 .plan > .container > #plans-block > .cards:hover .p3 {
     color: #fff;
+}
+
+.plan > .container > #plans-block > .cards:hover h2 {
+    display: none;
+}
+
+.plan > .container > #plans-block > .cards a {
+   display: none;
+}
+.plan > .container > #plans-block > .cards:hover a {
+    background-color: #fff;
+    display: inline-block;
+    width: 100%;
+    padding: 10px 50px;
+    color: black;
+    font-weight: 600;
 }
 
 @media (min-width: 576px) {
