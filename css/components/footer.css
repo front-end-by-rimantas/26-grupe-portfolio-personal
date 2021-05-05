@@ -31,16 +31,29 @@
     line-height: inherit;
 }
 
-.textFooter > a {
-    text-decoration: none;
+input {
+    display: inline-block;
+    border: none;
+    height: 40px;
+    float: left;
+    padding-left: 20px;
+    width: calc(100% - 50px);
+    font-weight: 300;
 }
- 
-.buttonText {
-     color: #8490ff;
+button.footer {
+    display: inline-block;
+    border: none;
+    background-color: #8490FF;
+    width: 50px;
+    height: 40px;
+    border: none;
+    line-height: 25px;
 }
 
-.fButton {
-    border: none;
+.footerButtonIco {
+    font-size: 20px;
+    color: white;
+    text-align: center;
 }
 
  .socials > .fa {
@@ -50,9 +63,5 @@
     line-height: 20px;
     padding: 0;
     width: 23px;
-    text-decoration: none;
- }
-
- .socials > a {
     text-decoration: none;
  }
