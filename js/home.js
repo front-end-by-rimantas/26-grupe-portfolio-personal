@@ -68,8 +68,7 @@ carousel('.feedback');
 
 planCards(planData);
 
-
 footer(footerSocials);
 
-blogRender(blogData);
+blogRender('#blog', blogData);
 
