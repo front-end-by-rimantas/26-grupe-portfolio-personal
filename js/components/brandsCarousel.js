@@ -6,6 +6,8 @@ class brandsCarousel {
         this.itemCount = this.data.list.length;
         this.breakPoints = [300, 600, 800, 1200];
         this.slideWidth = 187;
+        this.isPressDown = false;
+        this.cursorXSpace;
 
         this.init();
     }
@@ -54,7 +56,7 @@ class brandsCarousel {
     }
 
     animate() {
-        setInterval(() => {
+        this.interval = setInterval(() => {
             if (this.currentElement >= this.itemCount * 2) {
                 this.brandList.style.transition = 'none';
                 this.currentElement = this.itemCount;
@@ -73,6 +75,23 @@ class brandsCarousel {
     addEvent() {
         addEventListener('resize', () => {
             this.resizeBrandsContainer();
+        });
+        this.brandList.addEventListener("mousedown", (e) => {
+            e.preventDefault();
+            clearInterval(this.interval);
+            this.isPressDown = true;
+            this.cursorXSpace = e.offsetX - this.offset;
+        });
+        addEventListener("mouseup", () => {
+            this.isPressDown = false;
+        });
+
+        this.brandList.addEventListener("mousemove", (e) => {
+            if (!this.isPressDown) return;
+            e.preventDefault();
+            this.brandList.style.transform = `translateX(${e.offsetX - this.cursorXSpace}px)`;
+            console.log(e.offsetX - this.cursorXSpace);
+
         });
     }
 
