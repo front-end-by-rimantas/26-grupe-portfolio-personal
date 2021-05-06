@@ -1,68 +1,26 @@
 .blog {
-    background-color: #f9f9ff;
+    background-color: var(--color-light-background);
 }
 
-.blogHead {
+.container > .main-container > .blogHead {
     text-align: center;
 }
 
-.blogPhar {
+.container > .main-container > .blogPhar {
     text-align: center;
     padding: 40px 0 80px 0;
 }
 
-.big {
-    display: flex;
-    text-align: center;
-}
-
-.blog-container {
-    display: flex;
-    align-items: center;
-}
-
-.cont {
-    position: relative;
+.blog-container > .cont {
     margin: 16px;
     color:#222;
 }
 
-.cont:hover {
+.blog-container > .cont:hover {
     cursor: pointer;
 }
 
-.cont:hover .main-head {
-    color: var(--color-hover-text);
-    transition: 200ms;
-}
-
-.small-text > h4 {
-    margin-top: 20px;
-    text-transform: uppercase;
-}
-
-.small-text > h4:hover {
-    margin-top: 20px;
-    text-transform: uppercase;
-    color: var(--color-hover-text);
-    transition: 200ms linear;
-}
-
-.small-text > p {
-    margin-top: 15px;
-    line-height: 22px;
-}
-
-.row > .main-container {
-    width: 1200px;
-    margin-bottom: 80px;
-}
-
-.cont:last-child {
-    margin-bottom: 38px;
-}
-
-.cont > .mini-container {
+.blog-container > .cont > .mini-container {
     padding: 5px 0;
     border-bottom: 1px solid #eee;
     font-size: 14px;
@@ -70,11 +28,22 @@
     line-height: 1.625em;
 }
 
-.cont > .mini-container > span {
-    color: #222;
+.blog-container > .cont:hover .main-head {
+    color: var(--color-hover-text);
+    transition: 200ms linear;
 }
 
-.cont > .mini-container > .name {
+.blog-container > .cont > .small-text > h4 {
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+.blog-container > .cont > .small-text > p {
+    margin-top: 15px;
+    line-height: 22px;
+}
+
+.blog-container > .cont > .mini-container > .name {
     margin-left: 10px;
 }
 
@@ -92,19 +61,14 @@
     margin-left: 10px;
 }
 
-.blog-container > .main-img {
-    transform: scale(1);
-}
-
 .cont:hover .main-img {
-    transform: scale(1.04);
+    transform: scale(1.03);
     transition: all 0.5s;
 }
 
-.main-img > img {
+.cont > .main-img > img {
     width: 100%;
 }
-
 
 @media (max-width: 767px) {
     .cont > .mini-container {
