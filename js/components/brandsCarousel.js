@@ -55,25 +55,24 @@ class brandsCarousel {
 
     animate() {
         setInterval(() => {
-            this.currentElement++;
+            if (this.currentElement >= this.itemCount * 2) {
+                this.brandList.style.transition = 'none';
+                this.currentElement = this.itemCount;
+                this.offset = this.itemCount * (this.slideWidth * -1);
+                this.brandList.style.transform = `translateX(${this.offset}px)`;
+                return;
+            }
+
             this.offset -= this.slideWidth;
-            this.brandList.style.transform = `translateX(${this.offset}px)`;
             this.brandList.style.transition = 'all 0.5s';
+            this.brandList.style.transform = `translateX(${this.offset}px)`;
+            this.currentElement++;
         }, 3000);
     }
 
     addEvent() {
         addEventListener('resize', () => {
             this.resizeBrandsContainer();
-        });
-
-        this.brandList.addEventListener('transitionend', () => {
-            if (this.currentElement - this.itemCount === this.itemCount) {
-                this.currentElement = this.itemCount;
-                this.offset = this.itemCount * (this.slideWidth * -1);
-                this.brandList.style.transition = 'none';
-                this.brandList.style.transform = `translateX(${this.offset}px)`;
-            }
         });
     }
 
