@@ -1,4 +1,5 @@
 const feedbackData = [
+
     {
         photo: './img/feedback/testimonials_1.png',
         text: 'A purpose is the eternal condition of success. Every former smoker can tell you just how hard is to stop smoking cigarettes.',
@@ -12,6 +13,5 @@ const feedbackData = [
         position: "CEO at Google"
     },
 ]
-
 
 export { feedbackData }

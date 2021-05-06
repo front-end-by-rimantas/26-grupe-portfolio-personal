@@ -1,17 +1,16 @@
 .feedback-container {
-    background-color: #f9f9ff;
-    padding-bottom: 40px;
+    background-color: var(--color-light-background);
 }
 
 .feedback-container > .text-container {
     text-align: center;
 }
 
-.text-container > .head {
+.feedback-container > .text-container > .head {
     margin-bottom: 10px;
 }
 
-.testi {
+.carousel-container > .carousel-inner > .testi {
     display: grid;
     grid-template-columns: 15% auto; 
     background-color: white;
@@ -22,67 +21,45 @@
     line-height: 1.625em;
 }
 
-.testi:hover{
+.carousel-container > .carousel-inner > .testi:hover{
     cursor: pointer;
 }
 
-.testi:hover .box-author{
+.carousel-container > .carousel-inner > .testi:hover .box-author {
     color: var(--color-hover-text);
     transition: 200ms;
 }
-.box > .box-author {
+
+.testi > .box > .box-author {
     margin-top: 25px;
 }
 
-.box > .box-name {
+.testi > .box > .box-name {
     margin-top: 8px;
 }
 
-.testi > .box-img {
+.carousel-inner > .testi > .box-img {
     margin-top: -10px;
 }
 
-.carousel-control-prev {
-    
+.carousel-control-prev, .carousel-control-next {
     padding: 9px 15px 9px 15px;
     border: none; 
     background-color: white;
-    text-align: center;
     box-shadow: -12px 4px 30px 4px rgba(136,136,136,0.23);
-    opacity: 0.6s;
     transition: 0.25s;
     font-size: 20px;
     color: #777777;
 }
 
-.carousel-control-prev:hover {
+.carousel-control-prev:hover, .carousel-control-next:hover {
     cursor: pointer;
     background-color: var(--color-hover-text);
     color: white;
     opacity: 1s;
 }
 
-.carousel-control-next {
-    
-    padding: 9px 15px 9px 15px;
-    border: none;
-    background-color: white;
-    text-align: center;
-    box-shadow:-12px 4px 30px 4px rgba(136,136,136,0.23);
-    opacity: 0.6s;
-    transition: 0.25s;
-    font-size: 20px;
-    color: #777777;
-}
-
-.carousel-control-next:hover {
-    cursor: pointer;
-    background-color: var(--color-hover-text);
-    color: white;
-    opacity: 1s
-}
-
-.button-cont {
+.carousel-container > .button-cont {
    text-align: center; 
 }
 
@@ -90,7 +67,7 @@
     .carousel-container {
         display: flex;
     }
-    .button-cont {
+    .carousel-container > .button-cont {
         margin-top: 55px;
     }
 
@@ -98,11 +75,7 @@
         margin: 2px 0; 
     }
 
-    .carousel-control-next {
-        display: flex;
-    }
-
-    .carousel-control-prev {
+    .carousel-control-next, .carousel-control-prev {
         display: flex;
     }
 }
