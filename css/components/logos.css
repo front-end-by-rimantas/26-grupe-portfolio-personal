@@ -1,6 +1,5 @@
 .brands {
     overflow: hidden;
-    width: 935px;
     margin: 0 auto;
 }
 
@@ -15,7 +14,7 @@
 .brand {
     display: inline-block;
     width: 100%;
-    padding: 20px;
+    text-align: center;
     opacity: 0.5;
 }
 
