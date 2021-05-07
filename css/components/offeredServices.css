@@ -7,7 +7,11 @@
     color: #8490FF;
     transition: 300ms linear;
   }
-  
+.servicesBox {
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
 .introText {
     display: flex;
     justify-content:center;

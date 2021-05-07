@@ -1,6 +1,7 @@
 .backroundFooter {
     background-color: #04091E;
 }
+
 .footerBox {
     padding-top: 20px;
     padding-bottom: 40px;
@@ -40,6 +41,7 @@ input {
     width: calc(100% - 50px);
     font-weight: 300;
 }
+
 button.footer {
     display: inline-block;
     border: none;
@@ -56,6 +58,10 @@ button.footer {
     text-align: center;
 }
 
+.fa-long-arrow-right {
+    vertical-align: middle;
+}
+
  .socials > .fa {
     color: #fff;
     display: inline-block;
@@ -64,4 +70,4 @@ button.footer {
     padding: 0;
     width: 23px;
     text-decoration: none;
- }
+}
